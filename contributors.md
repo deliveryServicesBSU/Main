@@ -2,12 +2,12 @@
 
 **№1**
 
-*name: Vshishkarov
+name: Vshishkarov
 
-*email: Vshishkarov@gmail.com
+email: Vshishkarov@gmail.com
 
 **№2**
 
-*name : Zaptot
+name : Zaptot
 
-*email: Zaptot@gmail.com
+email: Zaptot@gmail.com
