@@ -1,0 +1,104 @@
+.logo
+ {
+position: absolute;
+margin-left: 7%;
+margin-top: 5%;
+ }
+.title {
+     position: absolute;
+color: #FFFFFF;
+line-height: 1;
+     font-size: 80px;
+     font-weight: 40;
+margin-left: 25%;}
+.title1 {
+     position: absolute;
+line-height: 0.5;
+     font-size: 40px;
+     line-height: 0.5;
+     font-weight: 40;
+margin-left: 40%;}
+.sings
+{
+position: absolute;
+margin-left: 80%;
+}
+.tab
+{
+ position:absolute;
+ margin-left: 30%;
+}
+.button
+{
+ position:absolute;
+ margin-top: 400px;
+   margin-left: 48%
+}
+.button1
+{
+position: absolute;
+margin-top: 490px;
+margin-left: 23%;
+left: 5px;
+top: 862px;
+}
+.input1
+ {
+ position: absolute;
+ margin-top:100px;
+ margin-left:34%;
+ }
+ .culc
+ {
+   position: absolute;
+   font-size: 40px;
+         font-weight:20;
+   margin-top:50px;
+   margin-left:36%;
+ }
+ .input2
+ {
+   position: absolute;
+   margin-left:31%;
+ }
+ .input2
+ {
+ position: absolute;
+ margin-top:100px;
+ margin-left:55%;
+ }
+.input3
+ {
+ position: absolute;
+ margin-top:335px;
+ margin-left:43%;
+ }
+     .instruction
+{
+position: absolute;
+margin-left: 25%;
+}
+.footer
+{
+ margin-top: 500px;
+
+ }
+.vk
+{
+position: absolute;
+margin-left: 20%;
+}
+ .title_footer
+{        position: absolute;
+ color: #FFFFFF;
+ line-height: 1;
+       font-size: 20px;
+       font-weight: 10;
+ margin-left: 25%;}
+.footer_main
+{        position: absolute;
+ color: #000000;
+ line-height: 1;
+       font-size: 20px;
+       font-weight: 10;
+ margin-left: 5%;}
