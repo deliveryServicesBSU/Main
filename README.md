@@ -2,6 +2,6 @@
 
 ##Short description about service:
 
-Реализация системы , которая позволяет доставлять товары пользователям ,через других пользователей .
+Service,that allows to deliver something to somebody 
 
 
