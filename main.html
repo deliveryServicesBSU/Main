@@ -21,6 +21,7 @@
         position: absolute;
 	line-height: 0.5;
         font-size: 50px;
+        line-height: 0.5;
         font-weight: 40;
 	margin-left: 40%;}
 	.sings
@@ -39,6 +40,39 @@
 		margin-top: 400px;
 	    margin-left: 48%
 	}
+	.button1
+	{
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 12%;
+	left: 5px;
+	top: 862px;
+	}
+	.input1
+		{
+		position: absolute;	
+		margin-top:100px;
+		margin-left:34%;
+		}
+		.culc
+		{
+			position: absolute;	
+			font-size: 40px;
+            font-weight:20;
+			margin-top:50px;
+			margin-left:36%;
+		}
+		.input2
+		{
+			position: absolute;	
+			margin-left:31%;
+		}
+		.input2
+		{
+		position: absolute;	
+		margin-top:100px;
+		margin-left:55%;
+		}
         .instruction
 	{
 	position: absolute;
@@ -80,10 +114,40 @@
 	<h1 class="title1"> <font face="Georgia">Как это работает? </font></h1>
 	<img  src="img/quick_order.png" class="instruction">
 </div>
- <div  style="  width: 100%; height: 450;background-color:#F10202; ">
+ 
  <img src="img/culctab.png" class="tab"  >
- <img src="img/culcButton.png" class="button">
-  </div>
+	 <a><img src="img/culcButton.png" class="button"></a>
+<font face="Georgia">
+            <div class="culc" style="height:50px" >
+            Рассчитать стоймость доставки
+            </div>
+            <div>
+            <form class="input1">
+            <p>Пункт отправки:</p>
+             <label  for="first_name">Город: </label>  <input  type="text" name="first_name" placeholder="набрать...">
+             <br>  <br>  <br> 
+             <label for="second_name">Улица:  </label><input  type="text" name="second_name" placeholder="набрать...">
+             <br> <br><br> 
+             <label  for="3_name">Номер дома:  </label><input  type="text" name="3_name" placeholder="набрать...">
+             <br> <br><br> 
+             <label for="4_name">Вес груза:  </label><input  type="text" name="4_name" placeholder="набрать..."><label for="4_name">кг</label>  
+             </form>
+             <form class="input2">
+            <p>Пункт доставки:</p>
+             <label  for="first1_name">Город: </label>  <input  type="text" name="first1_name" placeholder="набрать...">
+             <br>  <br>  <br> 
+             <label for="second1_name">Улица:  </label><input  type="text" name="second1_name" placeholder="набрать...">
+             <br> <br><br> 
+             <label  for="31_name">Номер дома:  </label><input  type="text" name="31_name" placeholder="набрать...">
+             <br> <br><br> 
+             <label for="41_name">Вес груза:  </label><input  type="text" name="41_name" placeholder="набрать..."><label for="4_name">кг</label>  
+             </form>
+            </div>
+     </font>
+	<div style="height:300px;">
+  <div class="button1" style="background-color:#ACA4A5"> <pre class="title1" ><font face="Georgia"> Зарегистрируйтесь прямо сейчас и получите скидку в 20% <p align="center">на первую доставку</p><img style="margin-left:40%" src="img/signup.png"></pre></div>
+    
+</div>
 	<div class="footer" style="height:200px;  background-color:#aaa;" >
 
 <h2 class="title_footer"><p> Delivery Servise </p></h2><br>
@@ -94,7 +158,7 @@
 <h5 class="footer_main"> <p>Помощь</p></h5><br>
 
 <h5 class="footer_main"><p >Форум</p></h5><br>
-<img srс="img/vk.png" class="vk">
+<img src="img/vk.png" width="80" height="80" class="vk">
 
 
 </div>
