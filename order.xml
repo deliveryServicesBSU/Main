@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
-<order id="1">
+<order>
 <items>
-<item id="1">mobile phone<feature id="1"> </feature></item>
-<item id="2">laptop<feature id="1"> </feature></item>
+<item id="1">First_item <Sending_point id="1"> </Sending_point></item>
+
+
+
 </items>
-<client>
+    <client>
 <address> <city title="Minsk"/> <street title="Kosmonavtov"/> <house number="54"/></address>
 <contacts> <mobile_number value="3752912345678" /> <first_name value="ivan"/> <surname value="ivanov"/> </contacts>
 </client>
