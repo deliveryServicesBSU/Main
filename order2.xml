@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<order>
+    <client id=""
+            name=""
+            surname=""
+            mobilenumber=""/>
+    <items>
+        <item weight="" size="heigh x width x length"/>
+    </items>
+
+    <sending
+            city=""
+            street=""
+            house=""
+    />
+    <delivery
+            city=""
+            street=""
+            house=""/>
+
+    <date value=""/>
+    <status id=""/>
+</order>
