@@ -5,7 +5,7 @@
             surname=""
             mobilenumber=""/>
     <items>
-        <item weight="" size="heigh x width x length"/>
+        <item weight="" size="heigh x width x length"> /*item name*/  </item>
     </items>
 
     <sending
@@ -16,8 +16,9 @@
     <delivery
             city=""
             street=""
-            house=""/>
-
+            house=""
+    />
+    <comments> /*some comments*/ </comments>
     <date value=""/>
     <status id=""/>
 </order>
