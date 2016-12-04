@@ -49,4 +49,22 @@
     width: 80%;
     height: 80%;
 }
+.headertext
+{
+    font-family: monospace;
+    font-style: italic;
+
+    margin: 0px;
+    color: #ffffff;
+    text-align: center;
+}
+.head
+{
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    margin-left: 20%;
+    margin-top: 12%;
+    font-size: 250%;
+}
 
