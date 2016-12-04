@@ -1,4 +1,34 @@
-#header
+.body
 {
-    height:10px;
+    margin: 0px;
 }
+.header
+{
+    width: 100%;
+    height: auto;
+}
+.headimg
+{
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+}
+.logining
+{
+    position: absolute;
+    margin-left: 80%;
+}
+.signin
+{
+    position: relative;
+    width: 25%;
+    height: auto;
+}
+.signup
+{
+    position: relative;
+    width: 40%;
+    height: auto;
+
+}
+
