@@ -1,9 +1,24 @@
+
+
+@font-face {
+
+    font-family: AleksandraC; /* имя шрифта для CSS правил */
+
+    src: local("AleksandraC"), /* проверяем наличие шрифта в ОС пользователя */
+
+    url(fonts/AleksandraC_regular.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+
+}
+
+* { font-family: "AleksandraC"; }
 .body
 {
     margin: 0px;
+    background-color: #fbffe9;
 }
 .header
 {
+position: absolute;
     width: 100%;
     height: auto;
 }
@@ -41,7 +56,7 @@
     position: absolute;
     padding-top: 5%;
     padding-left: 5%;
-    width: 15%;
+    width: 12%;
     height: auto;
 }
 .logoimg
@@ -51,11 +66,11 @@
 }
 .headertext
 {
-    font-family: monospace;
-    font-style: italic;
+    /*font-family: monospace;*/
+    /*font-style: italic;*/
 
     margin: 0px;
-    color: #ffffff;
+    color: #fbffe9;
     text-align: center;
 }
 .head
@@ -64,7 +79,113 @@
     width: 60%;
     height: 20%;
     margin-left: 20%;
-    margin-top: 12%;
-    font-size: 250%;
+    margin-top: 9%;
+    font-size: 2.5vw;
 }
+.main
+{
+    position: absolute;
+    margin-top: 27%;
+    width: 100%;
+    height: 60%;
+}
+.textmaincount
+{
+   position: absolute;
+    width: 50%;
+    height: 35%;
+    margin-left: 25%;
+    color: #000000;
 
+
+}
+.maintext
+{
+   /* font-family: monospace;*/
+    font-style: italic;
+    font-size: 3vw;
+    margin: 0px;
+    text-align: center;
+}
+.how
+{
+    position: absolute;
+    width:80%;
+    height:60%;
+    margin-left: 10%;
+    margin-top: 14%;
+}
+.howtitle
+{
+    width: 20%;
+    height: auto;
+    margin: auto;
+    font-size: 1.5vw;
+}
+.howcircles
+{
+    margin-top: 4%;
+}
+.how1
+{
+    position: absolute;
+    background-color: #F38630;
+    width: 20%;
+    border-radius: 100%;
+    float: left;
+}
+.how2
+{
+    position: absolute;
+    background-color: #F38630;
+    width: 20%;
+    border-radius: 100%;
+    margin-left: 40%;
+
+}
+.how3
+{
+    position: absolute;
+    background-color: #F38630;
+    width: 20%;
+    border-radius: 100%;
+    margin-left: 80%;
+
+}
+.how-inner
+{
+    position: relative;
+    height: 0;
+    border: none;
+}
+.ratio100
+{
+
+    padding-top: 100%;
+}
+.how12
+{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 15%;
+    width: 70%;
+    height: auto;
+    font-size: 1.2vw;
+    text-align: center;
+}
+.arrow1
+{
+    position: absolute;
+    width: 10%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+.arrow2
+{
+    position: absolute;
+    width: 10%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 65%;
+}
