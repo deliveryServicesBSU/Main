@@ -19,14 +19,14 @@
 
 .header
 {
-position: relative;
+    position: relative;
     width: 100%;
     height: auto;
 }
 .headimg
 {
     position: absolute;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .logining
