@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<order>
+    <client id="">
+        <contacts>
+            <first_name value=""/> <surname value=""/><mobile_number value=""/>
+        </contacts>
+    </client>
+    <items>
+        <item weight="" size="heigh x width x length"/>
+    </items>
+
+    <sending_point>
+        <city name=""/><street name=""/><house number=""/><flat number=""/>
+    </sending_point>
+    <delivery_point>
+        <city name=""/><street name=""/><house number=""/><flat number=""/>
+    </delivery_point>
+    <delivery_date value=""/>
+    <status id=""/>
+</order>
