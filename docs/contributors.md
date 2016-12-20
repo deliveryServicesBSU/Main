@@ -2,7 +2,7 @@
 
 **№1**
 
-name: Vshishkarov
+name: John Shishkarov
 
 email: Vshishkarov@gmail.com
 
