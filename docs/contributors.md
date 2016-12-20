@@ -17,9 +17,3 @@ email: 2014ivanee@gmail.com
 name: Vlad Demyanovich
 
 email: zaptot@gmail.com
-
-**№4**
-
-name: Andrey Mirugin
-
-email: armi25021998@gmail.com
