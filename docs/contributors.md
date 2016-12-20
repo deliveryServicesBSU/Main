@@ -1,8 +1,8 @@
-##Contributors:
+﻿##Contributors:
 
 **№1**
 
-name: Vshishkarov
+name: John Shishkarov
 
 email: Vshishkarov@gmail.com
 
@@ -17,3 +17,21 @@ email: 2014ivanee@gmail.com
 name: Vlad Demyanovich
 
 email: zaptot@gmail.com
+
+**№4**
+
+name: Jane Kushareva
+
+email: jenjakushareva@gmail.com
+
+**№5**
+
+name: Bozhena Mesiachik
+
+email: bmesiachik@gmail.com
+
+**№6**
+
+name: Andrey Mirugin
+
+email: armi25021998@gmail.com
