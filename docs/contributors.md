@@ -30,3 +30,8 @@ name: Bozhena Mesiachik
 
 email: bmesiachik@gmail.com
 
+**№6**
+
+name: Andrey Mirugin
+
+email: armi25021998@gmail.com
