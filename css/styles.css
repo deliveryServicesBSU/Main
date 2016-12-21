@@ -7,9 +7,18 @@
 .texthead
 {
     position: absolute;
-    margin-top: 12%;
+    margin-top: 8%;
     width: 100%;
     text-align: center;
+    font-size: 4vw;
+}
+.textheadsmall
+{
+    position: absolute;
+    margin-top: 25%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
 }
 .header
 {
@@ -22,4 +31,57 @@
     line-height: 100px;
     font-size: 20px;
     color: #fff;
+}
+.facts
+{
+    margin-top: 24%;
+}
+.facts-numbers
+{
+    text-align: center;
+    font-size: 3vw;
+    padding-left: 30%;
+    color:#f8f8f8;
+}
+.facts-text
+{
+    font-size: 1vw;
+    padding-left: 30%;
+    color:#f8f8f8;
+    text-align: center;
+}
+.facts-numbers1
+{
+
+    font-size: 3vw;
+    margin-right: 30%;
+    text-align: center;
+    color:#f8f8f8;
+}
+.facts-text1
+{
+    font-size: 1vw;
+    margin-right: 30%;
+    text-align: center;
+    color:#f8f8f8;
+
+}
+.facts-numbers2
+{
+    text-align: center;
+    font-size: 3vw;
+    margin-right: 30%;
+    color:#f8f8f8;
+}
+.facts-text2
+{
+    text-align: center;
+    font-size: 1vw;
+    margin-right: 30%;
+    color:#f8f8f8;
+
+}
+text-factallign
+{
+    text-align: center;
 }
