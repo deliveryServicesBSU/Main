@@ -1,3 +1,19 @@
+.body
+{
+    background-color: #f0f0f0;
+}
+#slidebox{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: #f0f0f0;
+}
+#slidebox1{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: #f0f0f0;
+}
 .headimg
 {
     position: absolute;
@@ -81,7 +97,116 @@
     color:#f8f8f8;
 
 }
-text-factallign
+.text-factallign
 {
     text-align: center;
 }
+.how
+{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+.how-header-text
+{
+    width: 100%;
+    font-size: 3vw;
+    text-align: center;
+    font: sans-serif;
+}
+.box1
+{
+    background-color: #f0f0f0;
+    margin: 0;
+}
+.button
+{
+    margin-left: 10%;
+    font-size: 1.3vw;
+    height: 4%;
+}
+.howimg
+{
+    position: absolute;
+}
+.boxsliders
+{
+    padding: 0;
+    background: #aaa;
+    margin: 0;
+    height: 100px;
+
+}
+.buttbox
+{
+    position: absolute;
+}
+.box2
+{
+    position: absolute;
+}
+.line1
+{
+    background: #000;
+}
+.slider
+{
+position: relative;
+    width: 100%;
+    height:auto;
+
+}
+.slider1
+{
+    position: absolute;
+    margin-top: 10%;
+    width: 100%;
+    height:auto;
+
+}
+.why
+{
+    position: absolute;
+    width: 100%;
+    height: auto;
+
+}
+.slider-text
+{
+    margin-left: 5%;
+
+
+}
+.slider-box
+{
+    position: absolute;
+}
+.slider-text1
+{
+    margin-left: 5%;
+
+
+}
+.color
+{
+    margin-top: 10px;
+    background-color: #f0f0f0;
+}
+.count
+{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
