@@ -5,6 +5,10 @@ ul {
     margin-left: 0; /* Отступ слева в браузере IE и Opera */
     padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
+.logbut
+{
+    margin-top: 5%;
+}
 .main
 {
 
@@ -31,15 +35,26 @@ ul {
     width: 100%;
     height: auto;
 }
-.texthead
+.texthead1
 {
     position: absolute;
     margin-top: 9%;
-    width: 100%;
-    text-align: center;
-    font-size: 4vw;
+    margin-left: 3%;
+    text-align: left;
     font-weight: 300;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #f0f0f0;
+}
+.texthead
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 3%;
+    text-align: left;
+    font-size: 3.5vw;
+    font-weight: 300;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-bottom: 2px solid #f0f0f0;
 }
 .textheadsmall
 {
@@ -211,8 +226,6 @@ position: relative;
 }
 .count
 {
-<<<<<<< HEAD
-=======
 
 
     height: auto;
@@ -234,7 +247,7 @@ position: relative;
 {
     width: auto;
     height: auto;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     border:0;
     padding: 0;
 }
@@ -263,17 +276,16 @@ position: relative;
 }
 .comments
 {
-
     width: 100%;
     margin-top: 2%;
     height: auto;
+    overflow: hidden;
 }
 .comments-img
 {
-    position: absolute;
     width: 100%;
     height: auto;
-
+    float: left;
 }
 .count-box
 {
@@ -298,8 +310,10 @@ position: relative;
 }
 .courarrow
 {
-    position: absolute;
-    margin-top: 11%;
+    width: auto;
+    height: 100%;
+    margin-top: 10%;
+    background: 0;
 }
 .scrolltitle
 {
@@ -320,16 +334,69 @@ position: relative;
 }
 .footer
 {
-
-    margin-top: 53.3%;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+.scrollbox
+{
+    position: absolute;
     width: 100%;
-
+    height: auto;
+}
+.arrowimg
+{
+    margin-top: 70%;
+}
+.imgcor
+{
+    width: 100%;
+    height: auto;
+}
+.slide
+{
+    margin-top: 10%;
+}
+footer section
+{
+    width: 30%;
+    float: left;
+    margin: 15px 0;
+    font-size: 1.3vw;
 }
 
+footer h4
+{
+    font-size: 1.7vw;
+}
+.social
+{
+    margin-left: 3%;
+}
 
-
-
-
->>>>>>> e132088aa9da8516054b687db6715a2103cbfa0e
-
+.copyright {
+    clear: left;
+}
+.inputleft
+{
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    line-height: 2;
+    border-bottom: 2px solid #f0f0f0;
+}
+.inputright
+{
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    line-height: 2;
+    border-bottom: 4px solid #f0f0f0;
 }
