@@ -51,7 +51,7 @@ ul {
     margin-top: 3%;
     margin-left: 3%;
     text-align: left;
-    font-size: 3.5vw;
+    font-size: 5vw;
     font-weight: 300;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     border-bottom: 2px solid #f0f0f0;
@@ -196,7 +196,7 @@ position: relative;
 .why
 {
 
-    width: 100%;
+    width: 99.3%;
     height: auto;
     margin-left: 100%;
 
@@ -399,4 +399,10 @@ footer h4
     padding-top: 0;
     line-height: 2;
     border-bottom: 4px solid #f0f0f0;
+}
+
+.footer1
+{
+    margin-top: 40%;
+    margin-left: 3%;
 }

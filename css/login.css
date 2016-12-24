@@ -1,3 +1,8 @@
+span
+{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 300;
+}
 form
 {
 	text-align: center;
@@ -6,7 +11,7 @@ form
 span
 {
 	float:left;
-	width:400px;
+	width:180px;
 	text-align: left;
 	font-size: 20px;
 
@@ -30,4 +35,14 @@ span
 {
 	margin-top: 65px;
 	margin-right: -20px;
+}
+.font
+{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 300;
+}
+.buttbox
+{
+	position: absolute;
+	margin-left: 43.5%;
 }

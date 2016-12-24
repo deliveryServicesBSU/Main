@@ -1,3 +1,14 @@
+.font
+{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 300;
+}
+span
+{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 300;
+}
+
 form
 {
 	text-align: center;
@@ -6,14 +17,14 @@ form
 span
 {
 	float:left;
-	width:400px;
+	width:180px;
 	text-align: left;
 	font-size: 20px;
 
 }
 .input
 {
-	float: right;
+
 	border-radius: 3px;
 }
 #submit
@@ -29,4 +40,16 @@ span
 {
 	margin-top: 10px;
 	margin-right: -20px;
+}
+#butt1
+{
+	position: absolute;
+	margin-top: 2.5%;
+	margin-left: 41%;
+
+}
+.but
+{
+position: absolute;
+	margin-left: 45.5%;
 }
