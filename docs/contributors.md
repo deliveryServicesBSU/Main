@@ -35,3 +35,5 @@ email: bmesiachik@gmail.com
 name: Andrey Mirugin
 
 email: armi25021998@gmail.com
+
+To contribute - write on e-mail of any contributor
