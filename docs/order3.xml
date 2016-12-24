@@ -1,27 +1,30 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <order>
-    <client id="">
+    <client number="">
         <contacts
-                firstName=""
+                Name=""
                 Surname=""
-                mobilePhone=""
+                Phone=""
         />
+        <items>
+            <item weight="" size="Высота: ; Ширина: ; Длина: "> /*item name*/ </item>
+        </items>
+       <adreses>
+           <sending
+                   country=""
+                   city=""
+                   street=""
+                   house=""
+           />
+           <delivery
+                   country=""
+                   city=""
+                   street=""
+                   house=""
+           />
+       </adreses>
+        <comments> /*some comments*/ </comments>
+        <date value=""/>
+        <status id=""/>
     </client>
-    <items>
-        <item weight="" size="heigh x width x length"> /*item name*/ </item>
-    </items>
-
-    <sending
-            city=""
-            street=""
-            house=""
-    />
-    <delivery
-            city=""
-            street=""
-            house=""
-    />
-    <comments> /*some comments*/ </comments>
-    <date value=""/>
-    <status id=""/>
 </order>

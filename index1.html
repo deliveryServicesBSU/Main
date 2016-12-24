@@ -34,7 +34,7 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-
+<div class="main">
 <div class="jumbotron">
   <img src="img/newHeader1.png" class="headimg">
   <h1 class="texthead">Доставка посылок по всей <br> Беларуси</h1>
@@ -65,39 +65,81 @@
   <div class="row" id="butt">
     <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 buttbox"> <a type="button"  class="btn btn-success button">Оформить доставку</a></div>
    </div>
-
-  <div class="jumbotron color">
+</div>
+<div class="row color">
+  <div class="col-lg-12 col-md-12 col-sm-pull-12 whyimg">
     <img src="img/why.png" class="why">
+  </div>
+</div>
+<div class="count-box">
 
+<div class="count">
+  <h3 class="count-text">Рассчитать стоймость посылки</h3>
+  <form class="form-inline">
+    <input type="text" class="input" placeholder="Откуда">
+    <input type="text" class="input" placeholder="Куда">
+  </form>
+<br>
+  <form class="form-inline">
+    <input type="text" class="input" placeholder="Габариты X/X/X(метр)">
+    <input type="text" class="input" placeholder="Вес посылки(Кг.)">
+  </form>
+  <br>
+  <a type="button"  class="btn btn-success button1">Рассчитать</a>
+</div>
+  <div class="count-title">
+  <h3 class="count-text">НАШИ ТАРИФЫ</h3>
+<p>Пользуясь нашими услугами, Вы экономите с каждой доставкой. Мы учтем все Ваши потребности и рассчитаем наиболее экономичный для Вас вариант с возможным последующим уменьшением стоимости каждой доставки.</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="comments">
+
+  <img src="img/comments1.png" class="comments-img">
+
+  <div id="myCarousel" class="carousel slide">
+
+    <!-- Carousel items -->
+    <div class="carousel-inner courtext">
+      <div class="active item">
+        <div class="text">
+          <h1 class="scrolltitle">Наталья</h1>
+          <p class="scrollpar">Спасибо огромное вашей службе доставки !!! Уже в который раз заказываю продукты домой, все всегда точно в срок, водители доставки всегда вежливые и улыбчивые!</p>
+          <p class="date">27.02.2016</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="text">
+        <h1 class="scrolltitle">Татьяна</h1>
+        <p class="scrollpar">Спасибо! В очередной раз убедилась в аккуратности, пунктуальности и четкости сотрудников Вашего магазина! Буду пользоваться и рекомендовать своим знакомым!</p>
+        <p class="date">01.09.2016</p>
+      </div>
+      </div>
+      <div class="item">
+        <div class="text">
+          <h1 class="scrolltitle">Анатолий</h1>
+          <p class="scrollpar">Хочу выразить благодарность за возможность получить необходимые товары не выходя из дома. Приятно, что ваш персонал такой внимательный и учтивый.</p>
+          <p class="date">30.05.2016</p>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel nav -->
+    <a class="left carousel-control courarrow" href="#myCarousel" data-slide="prev"><img src="img/arrowleft.png"></a>
+    <a class="carousel-control right courarrow" href="#myCarousel" data-slide="next"><img src="img/arrow.png"></a>
   </div>
 
 </div>
 
 
+<footer class="footer">
 
-<div class="count">
-
-</div>
-
-
-
-
+</footer>
 
 <script src="http://code.jquery.com/jquery-latest.js" class="how"></script>
 <script src="js/bootstrap.js"></script>
-
-<script type="text/javascript">
-    $(function()
-    {
-        $(window).scroll(function(){
-            var distanceTop = $('#show').offset().top - $(window).height();
-            if  ($(window).scrollTop() > ($(window).width())-($("div.slider").position().top))
-                $('#slidebox').animate({'right':0},300);
-            else
-                $('#slidebox').stop(true).animate({'right': ($(window).width())},200);
-        });
-    });
-    </script>
 
 </body>
 </html>
