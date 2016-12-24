@@ -1,3 +1,14 @@
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+.main
+{
+
+}
 .body
 {
     background-color: #f0f0f0;
@@ -23,10 +34,12 @@
 .texthead
 {
     position: absolute;
-    margin-top: 8%;
+    margin-top: 9%;
     width: 100%;
     text-align: center;
     font-size: 4vw;
+    font-weight: 300;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .textheadsmall
 {
@@ -40,7 +53,7 @@
 {
     background: url("../img/newHeader.png");
 
-   width: 1920px;
+    width: 1920px;
     height: 700px;
     background-repeat: no-repeat;
     text-align: center;
@@ -112,7 +125,7 @@
     width: 100%;
     font-size: 3vw;
     text-align: center;
-    font: sans-serif;
+    font-family: sans-serif;
 }
 .box1
 {
@@ -124,6 +137,7 @@
     margin-left: 10%;
     font-size: 1.3vw;
     height: 4%;
+    border-radius: 0;
 }
 .howimg
 {
@@ -139,7 +153,7 @@
 }
 .buttbox
 {
-    position: absolute;
+position: absolute;
 }
 .box2
 {
@@ -166,9 +180,10 @@ position: relative;
 }
 .why
 {
-    position: absolute;
+
     width: 100%;
     height: auto;
+    margin-left: 100%;
 
 }
 .slider-text
@@ -189,20 +204,135 @@ position: relative;
 }
 .color
 {
+
     margin-top: 10px;
     background-color: #f0f0f0;
+
 }
 .count
 {
-    
+
+
+    height: auto;
+    margin-left: 5%;
+    margin-top: 2%;
+    float: left;
 }
+.whyimg
+{
 
+    padding: 0;
+}
+.whyimg1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.count-box
+{
+    width: auto;
+    height: auto;
+    font-size: 1.5vw;
+    border:0;
+    padding: 0;
+}
+.button1
+{
+    width: 100%;
+    height: auto;
+    font-size: 1.5vw;
+}
+.count-text
+{
+    width: 100%;
+    font-size: 1.9vw;
+    text-align: center;
 
+}
+.count-title
+{
 
+    width: 30%;
+    height: auto;
+    margin-top: 3%;
+    font-size: 1.2vw;
+    float: right;
+    margin-right: 10%;
+}
+.comments
+{
 
+    width: 100%;
+    max-height: 640px;
+    margin-top: 20%;
+    height: auto;
+}
+.comments-img
+{
+    position: absolute;
+    width: 100%;
+    height: auto;
 
+}
+.count-box
+{
 
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.courtext
+{
+    position: absolute;
+    margin-top: 9%;
+    width: 100%;
+    height: auto;
 
+}
+.text
+{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    text-align: center;
+    color: #f0f0f0;
+}
+.courarrow
+{
+    position: absolute;
+    margin-top: 11%;
+}
+.scrolltitle
+{
+    font-size: 2vw;
+}
+.scrollpar
+{
+    width:70%;
+    font-size: 1.5vw;
+    margin-left:15%;
+}
+.date
+{
+    font-size: 1vw;
+    text-align: left;
+    width: 50%;
+    margin-left: 25%;
+}
+.footer
+{
+
+    margin-top: 53.3%;
+    width: 100%;
+
+}
+.button2
+{
+    width: 10%;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 45%;
+}
 
 
 
