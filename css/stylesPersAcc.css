@@ -1,6 +1,6 @@
 .main{
    position: absolute;
-   margin-top: auto;
+   margin-top: 10%;
    width: 100%;
 height: auto;
 }
@@ -15,10 +15,17 @@ height: auto;
 .texthead
 {
    position: absolute;
-   margin-top: 9%;
+   margin-top: 1%;
    width: 100%;
    text-align: center;
    font-size: 4vw;
    font-weight: 300;
    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.tab-acc
+{
+   position: absolute;
+   margin-top: 3%;
+   width: 100%;
+
 }
