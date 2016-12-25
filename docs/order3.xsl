@@ -16,8 +16,11 @@
         <h2>Контактный телефон: <xsl:value-of select="@Phone"/></h2>
     </xsl:template>
     <xsl:template match="items">
-        <p>Вес посылки: <xsl:value-of select="//item/@weight"/></p>
-        <p>Размеры посылки: <xsl:value-of select="//item/@size"/></p>
+        <xsl:apply-templates select="*" mode="items"/>
+    </xsl:template>
+    <xsl:template match="item" mode="items">
+        <p>Вес посылки: <xsl:value-of select="@weight"/></p>
+        <p>Размеры посылки: <xsl:value-of select="@size"/></p>
     </xsl:template>
     <xsl:template match="adreses">
     <table>
