@@ -1,12 +1,14 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
-    <xsl:template match="/">
+    <xsl:template match="order">
         <html>
             <body>
-                <h1>Номер заказа - <xsl:value-of select="//client/@number"/></h1>
                 <xsl:apply-templates select="//client"/>
             </body>
         </html>
+    </xsl:template>
+    <xsl:template match="client">
+        <h1>Номер заказа - <xsl:value-of select="@number"/></h1>
+        <xsl:apply-templates select="*"/>
     </xsl:template>
     <xsl:template match="contacts">
         <h2>Имя: <xsl:value-of select="@Name"/></h2>
@@ -14,8 +16,11 @@
         <h2>Контактный телефон: <xsl:value-of select="@Phone"/></h2>
     </xsl:template>
     <xsl:template match="items">
-        <p>Вес посылки: <xsl:value-of select="//item/@weight"/></p>
-        <p>Размеры посылки: <xsl:value-of select="//item/@size"/></p>
+        <xsl:apply-templates select="*" mode="items"/>
+    </xsl:template>
+    <xsl:template match="item" mode="items">
+        <p>Вес посылки: <xsl:value-of select="@weight"/></p>
+        <p>Размеры посылки: <xsl:value-of select="@size"/></p>
     </xsl:template>
     <xsl:template match="adreses">
     <table>

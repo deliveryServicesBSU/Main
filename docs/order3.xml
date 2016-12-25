@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <?xml-stylesheet type='text/xsl' href='order3.xsl'?>
 <order>
-    <client number="">
+    <client number="adsad">
         <contacts
                 Name=""
                 Surname=""

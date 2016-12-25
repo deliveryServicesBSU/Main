@@ -36,4 +36,10 @@ name: Andrey Mirugin
 
 email: armi25021998@gmail.com
 
+**№7**
+
+name: Dmitry Lishko
+
+email: 1268620@gmail.com
+
 To contribute - write on e-mail of any contributor

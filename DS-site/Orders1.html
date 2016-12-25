@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Вход</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="css/orders.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-inverse">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">DServise</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Главная<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Заказать доставку</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html">Вход</a></li>
+        <li><a href="registration.html">Регистрация</a> </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<form>
+  <fieldset>
+    <div class='panel'><img src='img/orders.jpg' class='imgpanel'></img></div>
+  </fieldset>
+  <form id="form" class="font">
+    <legend><h1 class="font">Заказ</h1></legend>
+      <fieldset class='set1'>
+          <p>
+            <label>
+            <span>Откуда: </span>
+            <input type='text' name='nickname' class='input' id='nick'/>
+            </label> 
+          </p>
+          <p>
+            <label>
+            <span> Город:</span>
+            <input type='text' name='e-mail' class='input' id='pass' />
+            </label> 
+          </p>
+          <p>
+            <label>
+            <span> Улица:</span>
+            <input type='password' name='password' class='input' id='pass1' />
+            </label> 
+          </p>
+      </fieldset>
+      <fieldset class='set2'>
+              <p>
+            <label>
+            <span>Куда: </span>
+            <input type='text' name='nickname' class='input' id='nick'/>
+            </label> 
+          </p>
+          <p>
+            <label>
+            <span> Город:</span>
+            <input type='text' name='e-mail' class='input' id='pass' />
+            </label> 
+          </p>
+          <p>
+            <label>
+            <span> Улица:</span>
+            <input type='password' name='password' class='input' id='pass1' />
+            </label> 
+          </p>
+      </fieldset>
+      <fieldset class='buttons'>
+            <p>
+            <label>
+            <span> Вес:</span>
+            <input type="text" class='input' placeholder="Кг">          
+          </p>
+          <p>
+            <label>
+            <span> Габариты:</span>
+            <input type="text" class='input' placeholder="X/X/X(метр)">
+            </label> 
+          </p>
+      </fieldset>
+      <fieldset>
+                <p>
+                <label>
+                <div class="row" id="butt">
+                  <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 but">  <a type="button" id='continues1' class="btn btn-success">Далее!</a>
+                  </div>
+                </div>
+                <p>
+          </fieldset>
+</form>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
