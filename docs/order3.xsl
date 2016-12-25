@@ -1,12 +1,14 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
-    <xsl:template match="/">
+    <xsl:template match="order">
         <html>
             <body>
-                <h1>Номер заказа - <xsl:value-of select="//client/@number"/></h1>
                 <xsl:apply-templates select="//client"/>
             </body>
         </html>
+    </xsl:template>
+    <xsl:template match="client">
+        <h1>Номер заказа - <xsl:value-of select="@number"/></h1>
+        <xsl:apply-templates select="*"/>
     </xsl:template>
     <xsl:template match="contacts">
         <h2>Имя: <xsl:value-of select="@Name"/></h2>
