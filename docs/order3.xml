@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0"?>
 <?xml-stylesheet type='text/xsl' href='order3.xsl'?>
 <order>
+<<<<<<< HEAD
     <client number="1234">
+=======
+    <client number="adsad">
+>>>>>>> 19eb98892436ad1d07bc19971f22f71aee7f9dae
         <contacts
                 Name="vanya"
                 Surname="shishkar"

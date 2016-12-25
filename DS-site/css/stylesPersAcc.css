@@ -1,0 +1,132 @@
+label
+{
+   display: block;
+}
+
+.main{
+   position: absolute;
+   margin-top: 6%;
+   width: 100%;
+   height: auto;
+}
+.header {
+
+   width: 100%;
+   height: auto;
+
+}
+
+.texthead
+{
+
+   margin-top: 1%;
+   width: 100%;
+   text-align: center;
+   font-size: 4vw;
+   font-weight: 300;
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.tab-acc
+{
+
+   width: 32%;
+   margin-left:34%;
+   font-size: 1vw;
+}
+
+
+.profile
+{
+
+   margin-top: 5%;
+
+}
+.photo-size{
+   float:left;
+   width: 20%;
+   height: auto;
+
+}
+.info
+{
+   width: 100%;
+   height: auto;
+   margin-right: 25%;
+   font-size: 1.8vw;
+   margin-left: 40%;
+   padding-top: 2.5%;
+
+}
+ .contacts
+ {
+    margin-top: 2%;
+      width: 100%;
+    height: auto;
+ }
+.contacts-info
+{
+
+   margin-top: 1%;
+   width: 100%;
+   text-align: center;
+   font-size: 2vw;
+   font-weight: 300;
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.birthday , .telephone , .adress{
+   margin-top: 2%;
+   width: 32%;
+   height: auto;
+   margin-left:34% ;
+}
+.head-cont
+{  margin-top: 1%;
+   width: 100%;
+
+   font-size: 1vw;
+   font-weight: 300;
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.inputs
+{
+   float:right;
+
+}
+.boxes
+{
+
+float:left;
+
+}
+
+.textSection
+{padding: 1.5%;
+   font-size: 75%;
+
+}
+.formSection
+{
+
+   margin-right: 100%;
+   padding: 1.5%;
+
+}
+.formSectionDate
+{
+   margin-right: 10%;
+   padding: 1.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
