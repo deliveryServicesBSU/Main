@@ -11,6 +11,7 @@
 
 </head>
 <body>
+
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -20,22 +21,33 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">DServise</a>
+            <a class="navbar-brand" href="indexlogin.html">DServise</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#">Главная<span class="sr-only">(current)</span></a></li>
+                <li><a href="indexlogin.html">Главная<span class="sr-only">(current)</span></a></li>
                 <li><a href="#">Заказать доставку</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Вход</a></li>
-                <li><a href="#">Регистрация</a> </li>
+                <div class="btn-group logbut">
+                    <a class="btn btn-default" href="#"><i class="icon-user icon-white"></i> Nickname</a>
+                    <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><i class="icon-pencil"></i>Личный кабинет</a></li>
+                        <li><a href="#"><i class="icon-trash"></i>Мои заказы</a></li>
+                        <li><a href="#"><i class="icon-ban-circle"></i>Настройки</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="i"></i>Выход</a></li>
+                    </ul>
+                </div>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+
+
 
 <div class="main">
     <div class="header">
@@ -50,17 +62,110 @@
                 <li><a href="#">Пополнить счёт</a></li>
                 <li><a href="#">Новый заказ </a></li>
             </ul>
-        </div>
 
+            <div class="profile">
+                <img src="img/noavatar.png" class="photo-size">
+                <div class="info">
+                    <p>Nickname
+                        <br>
+                        email@deliv.com
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="profile">
-        <div class="info">
 
+         <div class="contacts">
+             <div class="contacts-info">
+                 <p>Информация о пользователе</p>
+             </div>
+
+             <div class="adress">
+                 <label>
+                         <span class="head-cont">Адрес</span>
+                        <div >
+                            <p class="textSection">  <input type="text" class="formSection" placeholder="Город"></p>
+                            <p class="textSection">  <input type="text" class="formSection" placeholder="Город"></p>
+                            <p class="textSection">  <input type="text" class="formSection" placeholder="Город"></p>
+                            <p class="textSection">  <input type="text" class="formSection" placeholder="Город"></p>
+                         </div>
+                 </label>
+             </div>
+
+             <div class="birthday">
+                 <section><div class="column">
+                     <form action="#" enctype="" method="">
+                         <p class="textSection">Адрес <input name="Имя" type="text" placeholder="Город" class="formSection"></p>
+                         <p class="textSection">Дата рождения
+                             <select class="formSection">
+                                 <option>Month</option>
+                                 <option>1</option>
+                                 <option>2</option>
+                                 <option>3</option>
+                                 <option>4</option>
+                                 <option>5</option>
+                                 <option>6</option>
+                                 <option>7</option>
+                                 <option>8</option>
+                                 <option>9</option>
+                                 <option>10</option>
+                                 <option>11</option>
+                                 <option>12</option>
+                             </select>
+                             <select class="formSectionDate">
+                                 <option>Date</option>
+                                 <option>1</option>
+                                 <option>2</option>
+                                 <option>3</option>
+                                 <option>4</option>
+                                 <option>5</option>
+                                 <option>6</option>
+                                 <option>7</option>
+                                 <option>8</option>
+                                 <option>9</option>
+                                 <option>10</option>
+                                 <option>11</option>
+                                 <option>12</option>
+                                 <option>13</option>
+                                 <option>14</option>
+                                 <option>15</option>
+                                 <option>16</option>
+                                 <option>17</option>
+                                 <option>18</option>
+                                 <option>19</option>
+                                 <option>20</option>
+                                 <option>21</option>
+                                 <option>22</option>
+                                 <option>23</option>
+                                 <option>24</option>
+                                 <option>25</option>
+                                 <option>26</option>
+                                 <option>27</option>
+                                 <option>28</option>
+                                 <option>29</option>
+                                 <option>30</option>
+                                 <option>31</option>
+                             </select>
+                         </p>
+                     </form>
+                 </div>
+                 </section>
+                </div>
+
+                <div class="telephone">
+                    <label>
+                        <p>
+                            <span class="head-cont">Номер телефона</span>
+                            <input type="text" class="textSection" placeholder="+375-XX-XXX-XX-XX">
+                        </p>
+                    </label>
+                </div>
+                <div class="row" id="butt">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 but">
+                         <a type="button" id='submit' class="btn btn-success">Сохранить изменения</a></div>
+                 </div>
+            </div>
         </div>
-        <div class="contacts">
-
-        </div>
-
     </div>
 </div>
 
