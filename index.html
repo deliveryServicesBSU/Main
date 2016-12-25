@@ -1,116 +1,168 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title></title>
-<link rel="shortcut icon" href="" type="image/x-icon">
-<link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <title>Доставка</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 <body class="body">
-
-<div class="header">
-<img src="img/hewHeader1.png" class="headimg"/>
-<div class="logo">
-    <img src="img/logo3.png" class="logoimg"/>
-</div>
-    <div class="button">
-        <img src="img/signin3.png" class="signin"/>
-        <img style="padding-left: 8%;" src="img/signup3.png"class="signup"/>
-</div>
-    <div class="head">
-    <h1 class="headertext">Доставка посылок по всей Беларуси</h1>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-inverse">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">DServise</a>
     </div>
-</div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Главная<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Заказать доставку</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html">Вход</a></li>
+        <li><a href="registration.html">Регистрация</a> </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
 <div class="main">
-    <div class="textmaincount">
-        <h2 class="maintext">Мы уже доставили <br> 10500 <br>посылок и почтовых отправлений по всей Беларуси </h2>
-    </div>
-
-
-
-
-    <div class="how">
-
-            <div class="howtitle">
-            Как это работает:
-            </div>
-
-        <div class="howcircles">
-
-            <div class="how1">
-                <div class="how12">Оформите заказ на сайте или в Личном кабинете</div>
-                <div class="how-inner ratio100"> </div>
-            </div>
-
-            <img src="img/arrow.png" class="arrow1"/>
-
-            <div class="how2">
-                <div class="how12">Оплатите посылку любым удобным для вас способом</div>
-                <div class="how-inner ratio100"></div>
-            </div>
-
-            <img src="img/arrow.png" class="arrow2"/>
-
-            <div class="how3">
-                <div class="how12">Заберите посылку у курьера</div>
-                <div class="how-inner ratio100"></div>
-            </div>
-
-        </div>
-    </div>
-
-
-    <div class="join"> <div class="textjoin">Заказать доставку</div></div>
-    <div class="textmaincount m2">
-    <h2 class="maintext">Почему все выбирают нас? </h2>
-    </div>
-
-    <div class="because">
-
-       <div class="check1">
-        <div class="reason">
-            <img src="img/check.png" class="check"/>
-            <div class="checktext">
-                Простой интерфейс заказа
-            </div>
-        </div>
-       </div>
-
-        <div class="check2">
-            <div class="reason">
-                <img src="img/check.png" class="check"/>
-                <div class="checktext">
-                    Высокая скорость доставки и полная сохранность посылки
-                </div>
-            </div>
-        </div>
-
-        <div class="check2">
-            <div class="reason">
-                <img src="img/check.png" class="check"/>
-                <div class="checktext">
-                    Online мониторинг заказа
-                </div>
-            </div>
-        </div>
-
-        <div class="check2">
-            <div class="reason">
-                <img src="img/check.png" class="check"/>
-                <div class="checktext">
-                    Выгодные  бонусы и акции
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="jumbotron">
+  <img src="img/newHeader1.png" class="headimg">
+  <h1 class="texthead">Доставка посылок по Беларуси</h1>
+  <p class="texthead1">Хотите отправить посылку, но нет времени на длительные ожидания? Мы сэкономим ваше время!</p>
 </div>
-<div class="boxcount">
-    <div class="newbox">
-
+<div class="facts">
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-3">
+      <div class="facts-numbers">120</div>
+      <div class="facts-text">Положительных <br> отзывов</div>
     </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-2 col-md-offset-2 col-sm-offset-2">
+      <div class="facts-numbers1">386</div>
+      <div class="facts-text1">Клиентов <br> выбрали нас</div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+      <div class="text-factallign">
+      <div class="facts-numbers2">2</div>
+      <div class="facts-text2">Дня в среднем<br>на доставку</div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<div class="jumbotron box1">
+<h2 class="how-header-text">Оформить доставку- быстро и просто</h2>
+  <div class="homimg"><img src="img/how.png" class="how"></div>
+
+  <div class="row" id="butt">
+    <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 buttbox"> <a type="button"  class="btn btn-success button">Оформить доставку</a></div>
+   </div>
+</div>
+<div class="row color">
+  <div class="col-lg-12 col-md-12 col-sm-pull-12 whyimg">
+    <img src="img/why.png" class="why">
+  </div>
+</div>
+<div class="count-box">
+
+<div class="count">
+  <h3 class="count-text">Рассчитать стоймость посылки</h3>
+  <form class="form-inline">
+    <input type="text" class="input inputleft" placeholder="Откуда">
+    <input type="text" class="input inputright" placeholder="Куда">
+  </form>
+  <form class="form-inline">
+    <input type="text" class="input inputleft" placeholder="Габариты X/X/X(метр)">
+    <input type="text" class="input inputright" placeholder="Вес посылки(Кг.)">
+  </form>
+  <br>
+  <a type="button"  class="btn btn-success button1">Рассчитать</a>
+</div>
+  <div class="count-title">
+  <h3 class="count-text">НАШИ ТАРИФЫ</h3>
+<p>Пользуясь нашими услугами, Вы экономите с каждой доставкой. Мы учтем все Ваши потребности и рассчитаем наиболее экономичный для Вас вариант с возможным последующим уменьшением стоимости каждой доставки.</p>
+</div>
+</div>
+  <div class="comments">
+    <div class="imgcor">
+      <img src="img/comments1.png" class="comments-img">
+    </div>
+    <div class="scrollbox">
+      <div id="myCarousel" class="carousel slide">
+
+        <!-- Carousel items -->
+        <div class="carousel-inner courtext">
+          <div class="active item">
+            <div class="text">
+              <h1 class="scrolltitle">Наталья</h1>
+              <p class="scrollpar">Спасибо огромное вашей службе доставки !!! Уже в который раз заказываю продукты домой, все всегда точно в срок, водители доставки всегда вежливые и улыбчивые!</p>
+              <p class="date">27.02.2016</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text">
+              <h1 class="scrolltitle">Татьяна</h1>
+              <p class="scrollpar">Спасибо! В очередной раз убедилась в аккуратности, пунктуальности и четкости сотрудников Вашего магазина! Буду пользоваться и рекомендовать своим знакомым!</p>
+              <p class="date">01.09.2016</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text">
+              <h1 class="scrolltitle">Анатолий</h1>
+              <p class="scrollpar">Хочу выразить благодарность за возможность получить необходимые товары не выходя из дома. Приятно, что ваш персонал такой внимательный и учтивый.</p>
+              <p class="date">30.05.2016</p>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel nav -->
+
+      </div>
+      <a class="left carousel-control courarrow" href="#myCarousel" data-slide="prev"><img src="img/arrowleft.png"></a>
+      <a class="carousel-control right courarrow" href="#myCarousel" data-slide="next"><img src="img/arrow.png"></a>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
 <footer class="footer">
 
+  <section>
+  <h4>Наши контакты</h4>
+    <p>email: qweras@deliv.com</p>
+    <p>+375 (29) 123-45-67</p>
+    <p>+375 (44) 123-45-67</p>
+    <p>+375 (25) 123-45-67</p>
+  </section>
+
+  <section>
+    <h4>Адрес</h4>
+    <p>г.Минск ул.Ивановская, д.22, офис 67
+      8.00- 19.00</p>
+  </section>
+
+  <section class="social">
+    <h4>Мы в социальных сетях</h4>
+     <p><img src="img/header-social.png"></p>
+  </section>
+
+  <p class="copyright">© 2016 Влад Демянови, Иван Шишкарёв, Инван Шинкевич, Андрей Миругин, Божена Месячик, Евгения Кушарева, все права защищены</p>
 </footer>
+
+<script src="http://code.jquery.com/jquery-latest.js" class="how"></script>
+<script src="js/bootstrap.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,55 @@
+.font
+{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 300;
+}
+span
+{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 300;
+}
+
+form
+{
+	text-align: center;
+	margin-top: 10%;
+}
+span
+{
+	float:left;
+	width:180px;
+	text-align: left;
+	font-size: 20px;
+
+}
+.input
+{
+
+	border-radius: 3px;
+}
+#submit
+{
+	height:40px;
+	width:320px;
+	font-size: 1.4em;
+	margin-left: -120px;
+	vertical-align: 40%;
+	padding-bottom: 1.9em;
+}
+#reset
+{
+	margin-top: 10px;
+	margin-right: -20px;
+}
+#butt1
+{
+	position: absolute;
+	margin-top: 2.5%;
+	margin-left: 41%;
+
+}
+.but
+{
+position: absolute;
+	margin-left: 45.5%;
+}
