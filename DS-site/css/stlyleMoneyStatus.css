@@ -4,7 +4,7 @@ label
 }
 
 .main{
-    position: absolute;
+
     margin-top: 6%;
     width: 100%;
     height: auto;
@@ -15,7 +15,13 @@ label
     height: auto;
 
 }
+.tab-acc
+{
 
+    width: 32%;
+    margin-left:34%;
+    font-size: 1vw;
+}
 .texthead
 {
 
@@ -25,4 +31,95 @@ label
     font-size: 4vw;
     font-weight: 300;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.litletext
+{
+
+    margin-top: 1%;
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 300;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.textbalance
+{
+    margin-top: 1%;
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 300;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+.textSection
+{padding: 1.5%;
+    font-size: 75%;
+
+
+}
+.formSection
+{
+
+    margin-left: 43.5%;
+    padding: 1.5%;
+
+
+}
+.pay
+{
+    float:none;
+    width:40%;
+    height: auto;
+margin-left: 10%;
+}
+.visa
+{
+    float:none;
+    width: 50%;
+    height: auto;
+    margin-left: 10%;
+
+}
+.check
+{
+    float:none;
+    wigh: 32%;
+    height: auto;
+    margin-left: 32%;
+}
+.btn-apply
+{
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+
+}
+
+footer section
+{
+    width: 30%;
+    float: left;
+    margin: 15px 0;
+    font-size: 1.3vw;
+}
+
+footer h4
+{
+    font-size: 1.7vw;
+}
+.footer1
+{
+    margin-top: 40%;
+    margin-left: 3%;
+}
+.footer
+{
+    margin-top: 5%;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+.copyright {
+    clear: left;
 }

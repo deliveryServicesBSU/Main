@@ -4,7 +4,7 @@ label
 }
 
 .main{
-   position: absolute;
+
    margin-top: 6%;
    width: 100%;
    height: auto;
@@ -114,6 +114,36 @@ float:left;
 
 }
 
+footer section
+{
+   width: 30%;
+   float: left;
+   margin: 15px 0;
+   font-size: 1.3vw;
+}
+
+footer h4
+{
+   font-size: 1.7vw;
+}
+.footer1
+{
+   margin-top: 40%;
+   margin-left: 3%;
+}
+.footer {
+   margin-top: 2.5%;
+   width: 90%;
+   height: auto;
+   margin-left: 5%;
+}
+.copyright {
+   clear: left;
+}
+hr
+{
+ margin-top: 2.5%;
+}
 
 
 
