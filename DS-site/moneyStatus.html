@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Личный кабинет </title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <link href="css/bootstrap-theme.css" rel="stylesheet">
-    <link href="css/stlyleMoneyStatus.css" rel="stylesheet">
+    <link href="css/stylesPersAcc.css" rel="stylesheet">
 
 </head>
 <body>
@@ -48,8 +47,6 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-
-
 <div class="main">
     <div class="header">
         <div class="texthead">
@@ -58,67 +55,32 @@
 
         <div class="tab-acc ">
             <ul class="nav nav-tabs">
-                <li class="active"><a href="#">Профиль</a></li>
+                <li><a href="#">Профиль</a></li>
                 <li><a href="#">Заказы</a></li>
-                <li><a href="#">Пополнить счёт</a></li>
+                <li class="active"><a href="#">Пополнить счёт</a></li>
                 <li><a href="#">Новый заказ </a></li>
             </ul>
-
-            <div class="profile">
-                <img src="img/noavatar.png" class="photo-size">
-                <div class="info">
-                    <p>Nickname
-                        <br>
-                        email@deliv.com
-                    </p>
-                </div>
-            </div>
         </div>
     </div>
-
-         <div class="contacts">
-             <div class="contacts-info">
-                 <p>Информация о пользователе</p>
-             </div>
-
-             <div class="adress">
-                 <label>
-                         <span class="head-cont">Адрес</span>
-                        <div >
-                            <p class="textSection">  <input type="text" class="formSection" placeholder="Город"></p>
-                            <p class="textSection">  <input type="text" class="formSection" placeholder="Улица"></p>
-                            <p class="textSection">  <input type="text" class="formSection" placeholder="Дом"></p>
-                            <p class="textSection">  <input type="text" class="formSection" placeholder="Квартира"></p>
-                         </div>
-                 </label>
-             </div>
-
-                <div class="telephone">
-                    <label>
-                        <span class="head-cont">Номер телефона</span>
-                        <p class="textSection">
-                            <input type="text" class="formSection" placeholder="+375-XX-XXX-XX-XX">
-                        </p>
-                    </label>
-                </div>
-                <div class="row" id="butt">
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 but">
-                         <a type="button" id='submit' class="btn btn-success">Сохранить изменения</a></div>
-                 </div>
-            </div>
+    <div class="balance">
+        <div class="texthead">
+            <p>Поплниение баланса</p>
         </div>
+
+        <div class="currentMoney">
+
+        </div>
+
+
     </div>
+
+
+
+
+
+
+
+
 </div>
-
-
-
-
-
-
-
-<script src="http://code.jquery.com/jquery-latest.js" class="how"></script>
-<script src="js/bootstrap.js"></script>
-
-
 </body>
 </html>

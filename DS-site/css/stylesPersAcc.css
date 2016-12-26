@@ -82,7 +82,7 @@ label
 .head-cont
 {  margin-top: 1%;
    width: 100%;
-
+text-align: center;
    font-size: 1vw;
    font-weight: 300;
    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -103,20 +103,16 @@ float:left;
 {padding: 1.5%;
    font-size: 75%;
 
+
 }
 .formSection
 {
 
-   margin-right: 100%;
+   margin-left: 27%;
    padding: 1.5%;
 
-}
-.formSectionDate
-{
-   margin-right: 10%;
-   padding: 1.5%;
-}
 
+}
 
 
 
