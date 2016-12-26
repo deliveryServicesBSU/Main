@@ -1,31 +1,35 @@
 ﻿<?xml version="1.0"?>
 <?xml-stylesheet type='text/xsl' href='order3.xsl'?>
 <order>
+<<<<<<< HEAD
+    <client number="1234">
+=======
     <client number="adsad">
+>>>>>>> 19eb98892436ad1d07bc19971f22f71aee7f9dae
         <contacts
-                Name=""
-                Surname=""
-                Phone=""
+                Name="vanya"
+                Surname="shishkar"
+                Phone="+375 (29) 168-29-02"
         />
         <items>
-            <item weight="" size="Высота: ; Ширина: ; Длина: "> /*item name*/ </item>
+            <item weight="2kg" size="Высота:24 ; Ширина:10 ; Длина:5 "> /*item name*/ </item>
         </items>
        <adreses>
            <sending
-                   country=""
-                   city=""
-                   street=""
-                   house=""
+                   country="Belarus"
+                   city="Minsk"
+                   street="landera"
+                   house="60/2"
            />
            <delivery
-                   country=""
-                   city=""
-                   street=""
-                   house=""
+                   country="Belarus"
+                   city="Brest"
+                   street="Pop"
+                   house="109"
            />
        </adreses>
         <comments> /*some comments*/ </comments>
-        <date value=""/>
+        <date value="29.02.2017"/>
         <status id=""/>
     </client>
 </order>
