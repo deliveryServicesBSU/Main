@@ -66,19 +66,14 @@ label
 .contacts-info
 {
 
-   margin-top: 1%;
+   margin-top: 3%;
    width: 100%;
    text-align: center;
    font-size: 2vw;
    font-weight: 300;
    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.birthday , .telephone , .adress{
-   margin-top: 2%;
-   width: 32%;
-   height: auto;
-   margin-left:34% ;
-}
+
 .head-cont
 {  margin-top: 1%;
    width: 100%;
@@ -108,9 +103,8 @@ float:left;
 .formSection
 {
 
-   margin-left: 27%;
-   padding: 1.5%;
-
+   margin-right: 23.5%;
+   float: right;
 
 }
 
@@ -142,12 +136,33 @@ footer h4
 }
 hr
 {
- margin-top: 2.5%;
+   margin-top: 2.5%;
+}
+.text-block
+{margin-left: 32%;
+   width: 46%;
+   height: auto;
+   text-align: justify;
 }
 
 
+.litletext
+{
 
+   margin-top: 1%;
+   width: 100%;
+   text-align: center;
+   font-size: 1.5vw;
+   font-weight: 300;
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.btn-aply
+{
+   width: 100%;
+   margin-top: 3%;
+   margin-left: 20%;
 
+}
 
 
 

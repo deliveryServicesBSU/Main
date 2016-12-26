@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Личный кабинет </title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <!-- Bootstrap -->
+    <title>Настройки </title>
+
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <link href="css/bootstrap-theme.css" rel="stylesheet">
-    <link href="css/stylesPersAcc.css" rel="stylesheet">
+    <link href="css/settings.css" rel="stylesheet">
 
 </head>
 <body>
@@ -47,72 +46,37 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-
 <div class="main">
-    <div class="header">
-        <div class="texthead">
-            <p>Личный кабинет</p>
-        </div>
-
-        <div class="tab-acc ">
-            <ul class="nav nav-tabs">
-                <li class="active"><a href="#">Профиль</a></li>
-                <li><a href="#">Заказы</a></li>
-                <li><a href="#">Пополнить счёт</a></li>
-                <li><a href="#">Новый заказ </a></li>
-            </ul>
-
-            <div class="profile">
-                <img src="img/noavatar.png" class="photo-size">
-                <div class="info">
-                    <p>Nickname
-                        <br>
-                        email@deliv.com
-                    </p>
-                </div>
-            </div>
-        </div>
+    <div class="texthead">
+        <p>Настройки</p>
     </div>
+<div class="litletext">
+    <p>Поменять пароль</p>
 
-         <div >
-             <div class="contacts-info">
-                 <p>Информация о пользователе</p>
-             </div>
-             <div class="litletext">
-                 <p>Персональные данные</p>
-
-                 <div >
-                     <div class="text-block"> <p class="textSection">Имя <input class="formSection" type="text"/></p></div>
-                     <div class="text-block"> <p class="textSection">Фамилия <input class="formSection" type="text"/></p></div>
-                     <div class="text-block"> <p class="textSection">Номер телефона <input class="formSection" type="text"/></p></div>
-                 </div>
-
-             </div>
-
-             <div class="litletext">
-                 <p>Адрес:</p>
-
-                 <div >
-                     <div class="text-block"> <p class="textSection">Город <input class="formSection" type="text"/></p></div>
-                     <div class="text-block"> <p class="textSection">Улица <input class="formSection" type="text"/></p></div>
-                     <div class="text-block"> <p class="textSection">Дом <input class="formSection" type="text"/></p></div>
-                     <div class="text-block"> <p class="textSection">Квартира <input class="formSection" type="text"/></p></div>
-                 </div>
-             </div>
-
-
-
-
-             <div class="row" id="butt">
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 but">
-                         <a type="button" id='submit' class="btn btn-success btn-aply">Сохранить изменения</a></div>
-                 </div>
-            </div>
-        </div>
-    </div>
+    <div >
+        <div class="text-block"> <p class="textSection">Старый пароль <input class="formSection" type="text"/></p></div>
+        <div class="text-block"> <p class="textSection">Новый пароль <input class="formSection" type="text"/></p></div>
+        <div class="text-block"> <p class="textSection">Повторите пароль <input class="formSection" type="text"/></p></div>
+ </div>
 </div>
-<hr>
+    <div class="litletext">
+        <p>Сменить почту</p>
 
+        <div >
+            <div class="text-block"> <p class="textSection">Старая почта <input class="formSection" type="text"/></p></div>
+            <div class="text-block"> <p class="textSection">Новая почта <input class="formSection" type="text"/></p></div>
+        </div>
+    </div>
+
+    <div class="row" id="butt">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 but">
+            <a type="button" id='submit' class="btn btn-success btn-aply">Сохранить изменения</a></div>
+    </div>
+
+</div>
+
+
+<hr>
 <footer class="footer">
 
     <section>
@@ -136,17 +100,6 @@
 
     <p class="copyright">© 2016 Влад Демянови, Иван Шишкарёв, Инван Шинкевич, Андрей Миругин, Божена Месячик, Евгения Кушарева, все права защищены</p>
 </footer>
-
-
-
-
-
-
-
-
-<script src="http://code.jquery.com/jquery-latest.js" class="how"></script>
-<script src="js/bootstrap.js"></script>
-
 
 </body>
 </html>
