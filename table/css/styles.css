@@ -1,0 +1,32 @@
+table
+{
+  text-align: center;
+border-color: #000000;
+}
+.butt
+{
+  margin-top: 23px;
+}
+h1
+{
+  font-weight: 300;
+}
+p
+{
+  font-size: 20px;
+font-style: italic;
+font-family: sans-serif;
+}
+h4
+{
+  font-weight: 300;
+  font-style: italic;
+}
+body
+{
+  margin-left: 30px;
+}
+hr
+{
+  color: #000;
+}
