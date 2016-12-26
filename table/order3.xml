@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="windows-1251"?>
-
 <?xml-stylesheet type='text/xsl' href='order3.xsl'?>
-
-
   <order>
     <client number="1234">
         <contacts
@@ -11,56 +8,57 @@
                 Phone="+375 (29) 168-29-02"
         />
         <items>
-            <item weight="2kg" size="Высота:24 ; Ширина:10 ; Длина:5 "> /*item name*/ </item>
+            <item weight="2kg" size="Height:24 ; width:10 ; Length:5 "> /*item name*/ </item>
         </items>
-       <adreses>
-           <sending
+        <adreses id="1234">
+            <sending
 
-                   city="Minsk"
-                   street="landera"
-                   house="60/2"
-                   flat="66"
-           />
-           <delivery
+                    city="Minsk"
+                    street="Pushkinskaya"
+                    house="99"
+                    flat="123"
+            />
+            <delivery
 
-                   city="Brest"
-                   street="Pop"
-                   house="109"
-                   flat="12"
-           />
-       </adreses>
-        <comments> Доставить в течение 2 дней после 18.00 </comments>
+                    city="Mogilev"
+                    street="Okt'abr'skaya"
+                    house="88"
+                    flat="132"
+            />
+        </adreses>
+
         <date value="29.02.2017"/>
-        <status id="Обработка"/>
+        <status id="Obrabotka"/>
+        <comments> Delivery in 2 days after 18.00 </comments>
     </client>
 
     <client number="7890">
         <contacts
-                Name="Вася"
-                Surname="Иванов"
+                Name="Vasia"
+                Surname="Ivanov"
                 Phone="+375 (44) 333-33-33"
         />
         <items>
-            <item weight="0.5kg" size="Высота:0.3 ; Ширина:0.1 ; Длина:0.5 "> планшет </item>
+            <item weight="0.5kg" size="Height:0.3 ; width:0.1 ; Length:0.5 "> Tablet </item>
         </items>
-       <adreses>
-           <sending
+        <adreses id="7890">
+            <sending
 
-                   city="Миснк"
-                   street="Пушкинская"
-                   house="99"
-                   flat="123"
-           />
-           <delivery
+                    city="Minsk"
+                    street="landera"
+                    house="60/2"
+                    flat="66"
+            />
+            <delivery
 
-                   city="Могилёв"
-                   street="Октябрьская"
-                   house="88"
-                   flat="132"
-           />
-       </adreses>
-        <comments> после 20.00 </comments>
+                    city="Brest"
+                    street="Pop"
+                    house="109"
+                    flat="12"
+            />
+        </adreses>
+        <comments> after 20.00 </comments>
         <date value="01.12.2016"/>
-        <status id="Доставлено"/>
+        <status id="Dostavleno"/>
     </client>
 </order>
