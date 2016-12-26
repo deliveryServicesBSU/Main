@@ -7,7 +7,8 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
-  <link href="css/orders.css" rel="stylesheet">
+  <link href="css/orderssContinue.css" rel="stylesheet">
+
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -35,16 +36,31 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-<form>
-  <fieldset>
-    <div class='maintext'>Не зарегистрированы или не вошли в аккаунт?Войдите сейчас:</div>
-    <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 but"> <a type="button" id='enter' class="btn btn-success">Войти!</a></div>
-     <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 but"> <a type="button" id='enter1' class="btn btn-success">Зарегистрироваться!</a></div>
-  </fieldset>
-  <fieldset id='fieldcontinue'>
-    <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 but "> <a type="button" id='continues'  class="btn btn-success ">Далее!</a></div>
-  </fieldset>
-</form>
+
+<div class="main">
+  <div class="littletext">
+    <p>Не зарегистрированы или не вошли в аккаунт? Войдите сейчас: </p>
+  </div>
+  <div >
+   <div class="row buttons">
+    <div class="row " id="butt1">
+      <div class="col-lg-2 col-md-2 col-sm-2  col-lg-offset-5 col-md-offset-5 col-sm-offset-5 but">
+        <a type="button" id='submit1' class="btn  btn-success">Зарегистрироваться</a></div>
+  </div>
+
+    <div class="row " id="butt2">
+      <div class="col-lg-2 col-md-2 col-sm-2  btn-aply but">
+        <a type="button" id='submit2' class="btn  btn-success">Войти</a></div>
+    </div>
+   </div>
+
+
+  </div>
+</div>
+
+
+
+
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="js/bootstrap.js"></script>
 </body>
