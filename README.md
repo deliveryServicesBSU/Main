@@ -4,4 +4,4 @@
 
 Service,that allows to deliver something to somebody 
 
-To contribute - view Contributors.md in the folder "docs"
+To learn more about contributing - view Contributors.md in the folder "docs"
