@@ -86,7 +86,22 @@
     <input type="text" class="input inputright" placeholder="Вес посылки(Кг.)">
   </form>
 
-  <a type="button"  class="btn btn-success button1">Рассчитать</a>
+  <a type="button"  class="btn btn-success button1" data-toggle="modal" data-target="#basicModal">Рассчитать</a>
+
+  <div class="modal fade" id="basicModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header"><button class="close" type="button" data-dismiss="modal">x</button>
+          <h4 class="modal-title" id="myModalLabel">Калькулятор стоймости:</h4>
+        </div>
+        <div class="modal-body">
+          <h3>стоймость=</h3>
+        </div>
+        <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+          <a href="orders1.html" class="btn btn-success"> Оформить заказ</a></div>
+      </div>
+    </div>
+  </div>
 </div>
   <div class="count-title">
   <h3 class="count-text">НАШИ ТАРИФЫ</h3>
