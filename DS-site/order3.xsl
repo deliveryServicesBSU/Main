@@ -111,8 +111,8 @@
                         <p><xsl:value-of select="//sending/@city"/></p>
                         <p><xsl:value-of select="//delivery/@city"/></p>
 
-</td>
-<td>
+                </td>
+                <td>
                         <p><xsl:value-of select="//sending/@street"/></p>
                         <p><xsl:value-of select="//delivery/@street"/></p>
                 </td>
@@ -120,8 +120,8 @@
                         <p><xsl:value-of select="//sending/@house"/></p>
                         <p><xsl:value-of select="//delivery/@house"/></p>
 
-</td>
-<td>
+                </td>
+                <td>
                             <p><xsl:value-of select="//sending/@flat"/></p>
                             <p><xsl:value-of select="//delivery/@flat"/></p>
 
