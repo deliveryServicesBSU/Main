@@ -1,13 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="order">
         <html>
           <head>
-            <link href="css/bootstrap.css" rel="stylesheet"/>
-              <link href="css/styles.css" rel="stylesheet"/>
+              <meta charset="utf-8"/>
+              <link href="css/bootstrap.css" rel="stylesheet"/>
+              <link href="css/table.css" rel="stylesheet"/>
               <script src="http://code.jquery.com/jquery-latest.js"></script>
               <script src="js/bootstrap.js"></script>
           </head>
             <body>
+                  <nav class="navbar navbar-default navbar-fixed-top">
+                      <div class="container">
+                          <!-- Brand and toggle get grouped for better mobile display -->
+                          <div class="navbar-inverse">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                  <span class="sr-only"></span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                              </button>
+                              <a class="navbar-brand" href="indexlogin.html">DService</a>
+                          </div>
+                          <!-- Collect the nav links, forms, and other content for toggling -->
+                          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                              <ul class="nav navbar-nav">
+                                  <li><a href="indexlogin.html">Главная<span class="sr-only">(current)</span></a></li>
+                                  <li><a href="#">Заказать доставку</a></li>
+                              </ul>
+
+                              <ul class="nav pull-right navbar-nav">
+                                  <li class="dropdown" id="fat-menu">
+                                      <a class="dropdown-toggle" id="drop3" role="button" data-toggle="dropdown" href="#"><i class="icon-user icon-white"></i> Nickname</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="personal%20account.html">Личный кабинет</a></li>
+                                          <li><a href="table.html"><i class="icon-trash"></i>Мои заказы</a></li>
+                                          <li><a href="settings.html"><i class="icon-ban-circle"></i>Настройки</a></li>
+                                          <li class="divider"></li>
+                                          <li><a href="index.html"><i class="i"></i>Выход</a></li>
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </div><!-- /.navbar-collapse -->
+                      </div><!-- /.container-fluid -->
+                  </nav>
+<div class="main">
+  <div class="header">
+         <div class="texthead">
+             <p>Личный кабинет</p>
+         </div>
+
+         <div class="tab-acc ">
+             <ul class="nav nav-tabs">
+                 <li><a href="personal%20account.html">Профиль</a></li>
+                 <li class="active"><a href="#">Заказы</a></li>
+                 <li><a href="moneyStatus.html">Пополнить счёт</a></li>
+                 <li><a href="orders1.html">Новый заказ </a></li>
+             </ul>
+          </div>
+</div>
+</div>
                 <xsl:apply-templates select="//client"/>
             </body>
         </html>
@@ -113,5 +164,6 @@
     <xsl:template match="status">
         <p>Статус - <xsl:value-of select="@id"/></p>
         <hr/>
+
     </xsl:template>
 </xsl:stylesheet>
