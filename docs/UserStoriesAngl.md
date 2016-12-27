@@ -30,10 +30,14 @@ As a user, I want to have a personal account to store the necessary information 
 ###№14
 As a user, I want to be informed about promotions, to take part in them.
 ###№15
-As a courier, I want contact the customer, in order to clarify information of interest to me.
+As a user, I want recover my password if it is lost for future work with this service.
 ###№16
-As an administrator, I want to give some discounts in order to attract users.
+As a courier, I want contact the customer, in order to clarify information of interest to me.
 ###№17
-As an administrator, I can block users on the site to meet the interests of site / user when actions are contrary to the policy of site.
+As an administrator, I want to give some discounts in order to attract users.
 ###№18
+As an administrator, I can block users on the site to meet the interests of site / user when actions are contrary to the policy of site.
+###№19
+As an administrator, I want the user indicates their contact detalies in order to make it easier to contact them.
+###№20
 As an advertiser, I want to advertise products that focuses on the target users, in order to attract interested buyers only.
