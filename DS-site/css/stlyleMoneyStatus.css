@@ -68,23 +68,22 @@ label
 }
 .pay
 {
-    float:none;
-    width:40%;
+float: left;
+
     height: auto;
-margin-left: 10%;
+margin-left: 9%;
 }
 .visa
 {
     float:none;
-    width: 50%;
+
     height: auto;
-    margin-left: 10%;
+    margin-left: 5%;
 
 }
 .check
 {
     float:none;
-    wigh: 32%;
     height: auto;
     margin-left: 32%;
 }
@@ -126,4 +125,21 @@ footer h4
 }
 .copyright {
     clear: left;
+}
+.paypalimg
+{
+    width:15%;
+    margin-top: 3%;
+
+}
+.visaimg
+{
+
+
+    width:30%;
+    margin-left: 10%;
+}
+.ratior
+{
+    margin-left: 6%;
 }

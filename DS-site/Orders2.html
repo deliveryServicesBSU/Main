@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Вход</title>
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Оплата</title>
+    <link rel="shortcut icon" href="img/logo.png">
   <!-- Bootstrap -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
@@ -11,31 +11,39 @@
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-inverse">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">DService</a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Главная<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Заказать доставку</a></li>
-      </ul>
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-inverse">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="indexlogin.html">DServise</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="indexlogin.html">Главная<span class="sr-only">(current)</span></a></li>
+                <li><a href="orders1.html">Заказать доставку</a></li>
+            </ul>
 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="login.html">Вход</a></li>
-        <li><a href="registration.html">Регистрация</a> </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+            <ul class="nav pull-right navbar-nav">
+                <li class="dropdown" id="fat-menu">
+                    <a class="dropdown-toggle" id="drop3" role="button" data-toggle="dropdown" href="#"><i class="icon-user icon"></i> Nickname</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="personal%20account.html"><i class="icon-pencil"></i>Личный кабинет</a></li>
+                        <li><a href="table.html"><i class="icon-trash"></i>Мои заказы</a></li>
+                        <li><a href="settings.html"><i class="icon-ban-circle"></i>Настройки</a></li>
+                        <li class="divider"></li>
+                        <li><a href="index.html"><i class="i"></i>Выход</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
 </nav>
-<form>
+
   <form id="form" class="font">
     <legend><h1 class="font">Оплата,доставка</h1></legend>
       <fieldset >
@@ -43,8 +51,8 @@
             <label class='set11'>
             <span>Способ оплаты: </span><br>
             <input type='radio' name='nickname' class='input' id='nick1'/>Безналичный расчёт<br>
-            <input type='radio' name='nickname' class='input' id='nick'/>Web-money<br>
-            <input type='radio' name='nickname' class='input' id='nick'/>Через платежную систему "Расчёт"<br>
+            <input type='radio' name='nickname' class='input' id='nick2'/>Web-money<br>
+            <input type='radio' name='nickname' class='input' id='nick3'/>Через платежную систему "Расчёт"<br>
             </label> 
           </p>
           
@@ -53,9 +61,9 @@
             <p>
             <label class='set21'>
             <span>Скорость доставки: </span><br>
-            <input type='radio' name='time' class='input' id='nick'/>1-2 дня<br>
-            <input type='radio' name='time' class='input' id='nick'/>3-5 дней<br>
-            <input type='radio' name='time' class='input' id='nick'/>5-14 дней<br>
+            <input type='radio' name='time' class='input' id='nick4'/>1-2 дня<br>
+            <input type='radio' name='time' class='input' id='nick5'/>3-5 дней<br>
+            <input type='radio' name='time' class='input' id='nick6'/>5-14 дней<br>
             </label> 
           </p>
       </fieldset>
@@ -63,7 +71,7 @@
                 <p>
                 <label>
                 <div class="row" id="butt2">
-                  <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 but">  <a type="button" id='continues2' class="btn btn-success">Заказать!</a>
+                  <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 but">  <a type="button" id='continues2' class="btn btn-success" href="table.html">Заказать!</a>
                   </div>
                 </div>
                 <p>

@@ -16,14 +16,19 @@
 }
 .btn-aply
 {
+
     width: 10%;
-    margin-top: 1%;
-    margin-left: 45%;
+
 }
 
 .buttons
 {
-    margin-top: 10%;
-    width: 100%;
+
+    width: 92%;
     height: 100%
+}
+.ent
+{
+    float: left;
+
 }
