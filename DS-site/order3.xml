@@ -3,7 +3,7 @@
 <?xml-stylesheet type='text/xsl' href='order3.xsl'?>
 <order>
     <client number="1234">
-        <contacts
+        <contacts id="1234"
                 Name="vanya"
                 Surname="shishkar"
                 Phone="+375 (29) 168-29-02"
@@ -32,7 +32,7 @@
         <status id="Обработка"/>
     </client>
     <client number="7890">
-        <contacts
+        <contacts id="7890"
                 Name="Вася"
                 Surname="Иванов"
                 Phone="+375 (44) 333-33-33"
